@@ -1,0 +1,109 @@
+{
+  "courses": [
+    {
+      "name": "HTML CSS từ Zero đến Hero",
+      "categoryId": 1,
+      "price": 10000,
+      "old_price": 20000,
+      "image": "https://res.cloudinary.com/dpjieqbsk/image/upload/v1681393126/braintech/spmz7sjkfyo8lkchmyqx.png",
+      "description": "Trong khóa này chúng ta sẽ cùng nhau xây dựng giao diện 2 trang web là The Band & Shopee.rn",
+      "id": 1
+    },
+    {
+      "name": "Node & ExpressJS",
+      "categoryId": 2,
+      "price": 20220,
+      "old_price": 29900,
+      "image": "https://res.cloudinary.com/dpjieqbsk/image/upload/v1681377304/braintech/rl5psizy4vdmv9yk4nz8.png",
+      "description": "Học Back-end với Node & ExpressJS framework, hiểu các khái niệm khi làm Back-end và xây dựng RESTful API cho trang web.",
+      "id": 2
+    },
+    {
+      "name": "Xây Dựng Website với ReactJS",
+      "categoryId": 3,
+      "price": 30000,
+      "old_price": 50509,
+      "image": "https://res.cloudinary.com/dpjieqbsk/image/upload/v1681377267/braintech/xvrvofksfqm2v28cniaw.png",
+      "description": "Khóa học ReactJS từ cơ bản tới nâng cao, kết quả của khóa học này là bạn có thể làm hầu hết các dự án thường gặp với ReactJS. Cuối khóa học này bạn sẽ sở hữu một dự án giống Tiktok.com, bạn có thể tự tin đi ",
+      "id": 3
+    },
+    {
+      "name": "HTML CSS từ Zero đến Hero",
+      "categoryId": 1,
+      "price": 12600,
+      "old_price": 60000,
+      "image": "https://res.cloudinary.com/dpjieqbsk/image/upload/v1681393126/braintech/spmz7sjkfyo8lkchmyqx.png",
+      "description": "Trong khóa này chúng ta sẽ cùng nhau xây dựng giao diện 2 trang web là The Band & Shopee.rn",
+      "id": 4
+    },
+    {
+      "name": "Node & ExpressJS",
+      "categoryId": 2,
+      "price": 8000,
+      "old_price": 12900,
+      "image": "https://res.cloudinary.com/dpjieqbsk/image/upload/v1681377304/braintech/rl5psizy4vdmv9yk4nz8.png",
+      "description": "Học Back-end với Node & ExpressJS framework, hiểu các khái niệm khi làm Back-end và xây dựng RESTful API cho trang web.",
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Front-End"
+    },
+    {
+      "id": 2,
+      "name": "Back-End"
+    },
+    {
+      "id": 3,
+      "name": "Pro"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "123456",
+      "roleId": 1
+    },
+    {
+      "name": "user",
+      "password": "123456",
+      "roleId": 2,
+      "id": 2
+    },
+    {
+      "name": "àda",
+      "password": "fafdafdafa",
+      "roleId": 2,
+      "id": 3
+    },
+    {
+      "fullname": "Nguyễn Phương",
+      "name": "phuongnt",
+      "password": "123456",
+      "rePassword": "123456",
+      "roleId": 2,
+      "id": 4
+    },
+    {
+      "fullname": "Nguyễn Phương",
+      "name": "phuongnt",
+      "password": "123456",
+      "rePassword": "123456",
+      "roleId": 2,
+      "id": 5
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "admin"
+    },
+    {
+      "id": 2,
+      "name": "user"
+    }
+  ]
+}
